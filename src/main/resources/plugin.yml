@@ -1,0 +1,14 @@
+name: ${project.name}
+main: me.hqm.plugindev.groupmembers.GMBPlugin
+version: ${project.version}
+description: ${project.description}
+author: HmmmQuestionMark
+depend: [GroupManager]
+commands:
+    groupmembers:
+        usage: /groupmembers [world] [group]
+        permission: gmb.command
+        aliases: [gmb, listmembers, listusers]
+permissions:
+    gmb.command:
+        default: op
